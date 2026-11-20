@@ -1,0 +1,14 @@
+{
+    "KPlugin": {
+        "Id": "poe-reminder",
+        "Name": "PoE Reminder",
+        "Description": "Shortcut to add a hideout reminder while Path of Exile is focused",
+        "Authors": [{ "Name": "teunb" }],
+        "License": "MIT",
+        "Version": "1.0",
+        "EnabledByDefault": false
+    },
+    "X-Plasma-API": "javascript",
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "KPackageStructure": "KWin/Script"
+}

@@ -1,0 +1,5 @@
+{
+    "log_file": "~/.local/share/Steam/steamapps/common/Path of Exile/logs/Client.txt",
+    "poll_ms": 500,
+    "trigger_regex": "You have entered .*\\bHideout\\b"
+}
