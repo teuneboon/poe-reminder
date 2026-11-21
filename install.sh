@@ -16,7 +16,7 @@ qdbus6 org.kde.KWin /Scripting org.kde.kwin.Scripting.unloadScript poe-reminder 
 qdbus6 org.kde.KWin /KWin reconfigure
 
 # Daemon
-mkdir -p ~/.config/systemd/user
+mkdir -p ~/.config/systemd/user ~/.local/bin
 ln -sf "$PWD/poe-reminder.service" ~/.config/systemd/user/poe-reminder.service
 ln -sf "$PWD/poe_reminder.py" ~/.local/bin/poe-reminder
 systemctl --user daemon-reload
